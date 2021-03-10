@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <title>Questionnaire</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Style sheet (CSS) and JavaScript scripts necessary to use Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>    
+
+    <!-- <script src="https://code.jquery.com/jquery-1.12.4.js"></script> -->
+  </head>
+  
+  <body>
+	
+	<div class="container-md p-3 my-3 border bg-dark text-white" id="survey">
+    <h1>Survey</h1>
+    <form>
+      <h2> What fruits(s) do you like? </h2>
+      I like:<br>
+      <input type="text" name="fruit" placeholder="fruit name..." required />
+      <br>
+      <br>
+      <h2> What color(s) do you like? </h2>
+	    I like:<br>
+		  <input type="checkbox" name="color" value="Red"> Red<br>
+		  <input type="checkbox" name="color" value="Green"> Green<br>
+      <input type="checkbox" name="color" value="Blue"> Blue<br>
+      <br>
+      <h2>What is your favorite animal?</h2>
+      I like:<br>
+      <select name="animal">
+			  <option value="Cat" selected="selected">Cat</option>
+			  <option value="Dog">Dog</option>
+			  <option value="Turtle">Turtle</option>
+      </select>
+      <br>
+      <br>
+      <button type="submit" class="btn btn-warning" id="bb">Submit</button>
+      <p id="thanks"></p>
+    </form>
+    </div>
+	<script src="/assets/action.js"></script>
+  </body>
+</html> 
