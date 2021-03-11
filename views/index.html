@@ -1,0 +1,159 @@
+<!doctype html>
+
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Survey of Facebook UI</title>
+    <meta name="description" content="Survey of Facebook UI">
+    <meta name="author" content="SitePoint">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>    
+
+</head>
+
+<body>
+    <!-- The Nav section for the survey title---->
+    <navbar>
+        <div class="row">
+            <div class="col-6">
+                <h1>Questionnaire of the Facebook UI/UX</h1>
+                <a href="https://www.facebook.com/"><img src="images/fb.png" alt="Facebook" class="fb"></a>
+            </div>
+            <div class="col-6">
+                <img src="images/facebook.jpg" alt="UI" class="facebook">
+                <p style="font-size:150%;">Give us your opinion about <a href="https://www.facebook.com/">Facebook</a> user interface</p>
+            </div>
+        </div>
+        
+    </navbar>
+    
+
+
+    <section class="survey_body">
+        
+        <h2>Facebook Evaluation Form</h2>
+        <p>Please let us about your thoughts/experience with facebook user interface.</p>
+        <hr>
+
+        <div class="row">
+            <div class="col-2">
+            </div>
+            <div class="col-8">
+                <form>
+            <div class="form-control-1">
+                <label id="name-label">First Name:</label>
+                <input type="text" name="firstName" placeholder="Enter the First Name" required>
+            </div>
+            <div class="form-control-1">
+                <label id="name-label">Last Name:</label>
+                <input type="text" name="lastName" placeholder="Enter the Last Name" required>
+            </div>
+            <div class="form-control-1">
+                <label id="name-label">E-mail:</label>
+                <input type="text" name="email" placeholder="Enter the Email" required>
+            </div>
+            <br>
+
+            <div id="questions">
+                <div class="two">
+                    <form>
+                        <label id="radio">Do you use the Facebook user interface often?</label>
+                        <br>
+                        <div style="margin-right: 4px;">
+                            <input type="radio" name="question1" value="yes" name="enjoy">
+                            <label for="yes">Yes</label>
+                            <input type="radio" name="question1" value="no" name="enjoy">
+                            <label for="no">No</label>
+                        </div>
+                    </form>
+                    <br>
+
+                </div>
+
+                <div class="box">
+                    <label>Which Facebook user interface do you prefer?</label>
+                    <div style="margin-left: 22px;"> 
+                        <select name="question2">
+                            <option value="" selected=""> Select an Option</option>
+                            <option value="Old UI"> Old UI</option>
+                            <option value="New UI"> New UI </option>
+                            <option value="No Preference"> No Preference</option>
+                        </select>
+                    </div>
+
+                </div>
+
+                <div class="btn-control">
+                    <label id="radio">How difficult is reading characters on the screen?</label><br>
+                    <input type="radio" name="question3"> Very Hard<br>
+                    <input type="radio" name="question3"> Somewhat hard<br>
+                    <input type="radio" name="question3"> Somewhat easy<br>
+                    <input type="radio" name="question3"> Very easy<br>
+                </div>
+
+                <div class="btn-control">
+                    <label id="checkbox;">Please state your level of agreement for the following:</label><br>
+                    <input type="checkbox" name="question4" value="Use of terms throughout the system is consistent "> Use of terms throughout the system is consistent</input><br>
+                    <input type="checkbox" name="question4" value="Position of messages on the screen is consistent "> Position of messages on the screen is consistent</input><br>
+                    <input type="checkbox" name="question4" value="Prompts for inputs are clear "> Prompts for inputs are clear</input><br>
+                    <input type="checkbox" name="question4" value="System always informs about the progress of the task "> System always informs about the progress of the task</input><br>
+                    <input type="checkbox" name="question4" value="Error messages are helpful "> Error messages are helpful</input>
+                </div>
+
+                <div class="btn-control">
+                    <label id="radio">In which section of facebook does the user interface look most awful?</label><br>
+                    <input type="radio" name="question5"> Photos<br>
+                    <input type="radio" name="question5"> News<br>
+                    <input type="radio" name="question5"> Messaging<br>
+                    <input type="radio" name="question5"> Games<br>
+                </div>
+                
+                <div class="btn-control">
+                    <label id="radio">Is there a problem in UI that bothers you?</label><br>
+                    <input type="text" name="question6" placeholder="Enter the name of your problem" size="43">
+                </div>
+
+                <br>
+                <div class="texto">
+                    <p style="font-size:120%;">Please enter your comments here:
+                    <p>
+                        <textarea rows="10" cols="100" maxlength="3000" name="comments" placeholder="Enter your text...."></textarea>
+                </div>
+                <div class="btnClass">
+                    <button type="submit" class="button" id="bb">Submit</button>
+                </div>
+                
+            </div>
+
+        </form>
+            
+            </div>
+            <div class="col-2">
+            </div>
+        </div>
+        
+
+
+    </section>
+
+    <footer>
+        <p>Website created by Ruchira, Sam, Batuhan, and Kene</p>
+    </footer>
+    <!--<div class="footer">
+        
+    </div>
+
+    </div>-->
+
+
+
+<script src="/assets/action.js"></script>
+</body>
+
+</html>
