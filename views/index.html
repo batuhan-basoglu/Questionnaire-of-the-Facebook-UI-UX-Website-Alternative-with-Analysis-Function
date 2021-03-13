@@ -18,7 +18,7 @@
 
 </head>
 
-<body>
+<body style="background-image: url('images/bg3.jpg');">
   <!-- the form section for the survey -->
   <section id="form">
     <div class="container-fluid">
@@ -32,13 +32,13 @@
           <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="images/fb.png" class="headerImg" alt="...">
+                <img src="images/fb.png" class="headerImg" alt="fb">
               </div>
               <div class="carousel-item">
                 <img src="images/facebook_ui.png" alt="UI" class="headerImg">
               </div>
               <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
+                <img src="images/facebook.jpg" class="headerImg" alt="UI">
               </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -63,7 +63,7 @@
           <div class="row userLabel">
             <div class="col-6">
               <label for="fnameLabel">First Name</label>
-              <input type="text" class="form-control" id="fname" name="firstName" placeholder="First Name" required>
+              <input type="text" class="form-control" id="fname" name="firstName" placeholder="First Name" required >
             </div>
             <div class="col-6">
               <label for="lnameLabel">Last Name</label>
@@ -84,23 +84,23 @@
         <!-- Quetion 1 and 2 -->
         <div class="row questions">
           <!-- Question 1 -->
-          <div class="col-6">
+          <div class="col-5">
             <label for="" id="radio"><span>1.</span> Do you use the Facebook user interface often?</label>
             <br>
             <!-- style="margin-right: 4px;" -->
             <div class="row">
-              <div class="col-6">
+              <div class="col-5">
                 <input type="radio" name="question1" value="yes">
                 <label for="yes">Yes</label>
               </div>
-              <div class="col-6">
+              <div class="col-8">
                 <input type="radio" name="question1" value="no">
                 <label for="no">No</label>
               </div>
             </div>
           </div>
           <!-- Question 2 -->
-          <div class="col-6">
+          <div class="col-5">
             <label><span>2.</span> Which Facebook user interface do you prefer?</label>
             <div style="margin-left: 22px;">
               <select name="question2">
@@ -115,7 +115,7 @@
         <!-- Question3 and 4 -->
         <div class="row questions">
           <!-- Question 3-->
-          <div class="col-6">
+          <div class="col-5">
             <label id="radio"><span>3.</span> How difficult is reading characters on the screen?</label><br>
             <input type="radio" name="question3"> Very Hard<br>
             <input type="radio" name="question3"> Somewhat hard<br>
@@ -123,7 +123,7 @@
             <input type="radio" name="question3"> Very easy<br>
           </div>
           <!-- Question 4 -->
-          <div class="col-6">
+          <div class="col-5">
             <label id="checkbox;"><span>4.</span> Please state your level of agreement for the following:</label><br>
             <input type="checkbox" name="question4" value="Use of terms throughout the system is consistent "> Use of terms throughout the system is consistent</input><br>
             <input type="checkbox" name="question4" value="Position of messages on the screen is consistent "> Position of messages on the screen is consistent</input><br>
@@ -135,7 +135,7 @@
         <!-- Question 5 and 6 -->
         <div class="row questions">
           <!-- Question 5-->
-          <div class="col-6">
+          <div class="col-5">
             <label id="radio"><span>5.</span> In which section of facebook does the user interface look most awful?</label><br>
             <input type="radio" name="question5"> Photos<br>
             <input type="radio" name="question5"> News<br>
@@ -143,7 +143,7 @@
             <input type="radio" name="question5"> Games<br>
           </div>
           <!-- Question 6 -->
-          <div class="col-6">
+          <div class="col-5">
             <label id="radio"><span>6.</span> Is there a problem in UI that bothers you?</label><br>
             <input type="text" name="question6" placeholder="Enter the name of your problem" size="43">
           </div>
