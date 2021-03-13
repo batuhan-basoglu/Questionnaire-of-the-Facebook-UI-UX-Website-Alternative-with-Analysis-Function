@@ -58,25 +58,14 @@ p{
     font-size: 20px;
 }
 
-.questions {
+/* .questions {
     padding-top: 20px;
-}
+} */
 
 .fb {
     width: 10%;
     height: auto;
 }
-
-/* .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 40px;
-    background-color: rgb(87, 139, 216);
-    color: rgb(255, 255, 255);
-    text-align: center;
-} */
 
 .button {
     background-color: rgb(87, 139, 216);
@@ -97,33 +86,55 @@ p{
 }
 
 /* Shared classes */
-.questions{
-  margin: 4% 3%;
-}
+
 
 
 /* Title section */
 #title {
   background-color: #F4C983;
-  padding : 3% 7%;
+  padding : 3% 4%;
 }
 /* Form Section */
 #form {
-  padding: 3% 7%;
+  padding: 3% 5%;
   text-align: center;
   /* background-color: #5B6D5B; */
   /* #F4C983; */
 }
-.SurveyIntro{
-  margin: 3%;
+.surveryForm {
+  /* #DDDDDD; */
+  background-color: #DDDDDD;
+}
+
+.surveyIntro{
+  /* margin: 4%; */
+  /* background-color: #F39189; */
+  padding : 5%;
+}
+.headerImg{
+  width: 40%;
 }
 .userInfo{
   margin: 2.5%;
 }
 
-.surveryForm {
-  /* #DDDDDD; */
-  /* background-color: #5B6D5B; */
+.userLabel{
+  margin: 3% 20%;
+  text-align: left;
+}
+
+.questions{
+  margin:  5% 7%;
+  text-align: left;
+}
+
+
+.commentBox{
+  margin: 4% 15%;
+}
+
+.btnClass{
+  margin: 4%;
 }
 
 /* Footer section */
