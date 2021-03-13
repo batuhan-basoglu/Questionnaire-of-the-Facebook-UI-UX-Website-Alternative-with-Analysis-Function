@@ -2,8 +2,6 @@
 
 The Survey Analysis made by Ruchira Perrera, Sam Oyediran, Batuhan Basoglu, and Kene Ojukwu
 
-https://arctichawk1.github.io/SEG3125-LAB6/
-
 
 # Authors
 
