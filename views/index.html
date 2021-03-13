@@ -3,157 +3,172 @@
 <html lang="en-US">
 
 <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
 
-    <title>Survey of Facebook UI</title>
-    <meta name="description" content="Survey of Facebook UI">
-    <meta name="author" content="SitePoint">
+  <title>Survey of Facebook UI</title>
+  <meta name="description" content="Survey of Facebook UI">
+  <meta name="author" content="SitePoint">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>    
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 
 </head>
 
 <body>
-    <!-- The Nav section for the survey title---->
-    <navbar>
+  <!-- The Nav section for the survey title---->
+  <section id="title">
+    <div class="container-fluid">
+      <navbar>
         <div class="row">
-            <div class="col-6">
-                <h1>Questionnaire of the Facebook UI/UX</h1>
-                <a href="https://www.facebook.com/"><img src="images/fb.png" alt="Facebook" class="fb"></a>
-            </div>
-            <div class="col-6">
-                <img src="images/facebook.jpg" alt="UI" class="facebook">
-                <p style="font-size:150%;">Give us your opinion about <a href="https://www.facebook.com/">Facebook</a> user interface</p>
-            </div>
+          <div class="col-6">
+            <h1>Questionnaire of the Facebook UI/UX</h1>
+            <a href="https://www.facebook.com/"><img src="images/fb.png" alt="Facebook" class="fb"></a>
+          </div>
+          <div class="col-6">
+            <img src="images/facebook.jpg" alt="UI" class="facebook">
+            <p style="font-size:150%;">Give us your opinion about <a href="https://www.facebook.com/">Facebook</a> user interface</p>
+          </div>
         </div>
-        
-    </navbar>
-    
+      </navbar>
+    </div>
+  </section>
 
-
-    <section class="survey_body">
-        
+  <!-- the form section for the survey -->
+  <section id="form">
+    <div class="container-fluid">
+      <!-- The form header -->
+      <div class="SurveyIntro">
         <h2>Facebook Evaluation Form</h2>
         <p>Please let us about your thoughts/experience with facebook user interface.</p>
-        <hr>
+      </div>
+      <hr>
 
-        <div class="row">
-            <div class="col-2">
-            </div>
-            <div class="col-8">
-                <form>
-            <div class="form-control-1">
-                <label id="name-label">First Name:</label>
-                <input type="text" name="firstName" placeholder="Enter the First Name" required>
-            </div>
-            <div class="form-control-1">
-                <label id="name-label">Last Name:</label>
-                <input type="text" name="lastName" placeholder="Enter the Last Name" required>
-            </div>
-            <div class="form-control-1">
-                <label id="name-label">E-mail:</label>
-                <input type="text" name="email" placeholder="Enter the Email" required>
-            </div>
-            <br>
-
-            <div id="questions">
-                <div class="two">
-                    <form>
-                        <label id="radio">Do you use the Facebook user interface often?</label>
-                        <br>
-                        <div style="margin-right: 4px;">
-                            <input type="radio" name="question1" value="yes" name="enjoy">
-                            <label for="yes">Yes</label>
-                            <input type="radio" name="question1" value="no" name="enjoy">
-                            <label for="no">No</label>
-                        </div>
-                    </form>
-                    <br>
-
-                </div>
-
-                <div class="box">
-                    <label>Which Facebook user interface do you prefer?</label>
-                    <div style="margin-left: 22px;"> 
-                        <select name="question2">
-                            <option value="" selected=""> Select an Option</option>
-                            <option value="Old UI"> Old UI</option>
-                            <option value="New UI"> New UI </option>
-                            <option value="No Preference"> No Preference</option>
-                        </select>
-                    </div>
-
-                </div>
-
-                <div class="btn-control">
-                    <label id="radio">How difficult is reading characters on the screen?</label><br>
-                    <input type="radio" name="question3"> Very Hard<br>
-                    <input type="radio" name="question3"> Somewhat hard<br>
-                    <input type="radio" name="question3"> Somewhat easy<br>
-                    <input type="radio" name="question3"> Very easy<br>
-                </div>
-
-                <div class="btn-control">
-                    <label id="checkbox;">Please state your level of agreement for the following:</label><br>
-                    <input type="checkbox" name="question4" value="Use of terms throughout the system is consistent "> Use of terms throughout the system is consistent</input><br>
-                    <input type="checkbox" name="question4" value="Position of messages on the screen is consistent "> Position of messages on the screen is consistent</input><br>
-                    <input type="checkbox" name="question4" value="Prompts for inputs are clear "> Prompts for inputs are clear</input><br>
-                    <input type="checkbox" name="question4" value="System always informs about the progress of the task "> System always informs about the progress of the task</input><br>
-                    <input type="checkbox" name="question4" value="Error messages are helpful "> Error messages are helpful</input>
-                </div>
-
-                <div class="btn-control">
-                    <label id="radio">In which section of facebook does the user interface look most awful?</label><br>
-                    <input type="radio" name="question5"> Photos<br>
-                    <input type="radio" name="question5"> News<br>
-                    <input type="radio" name="question5"> Messaging<br>
-                    <input type="radio" name="question5"> Games<br>
-                </div>
-                
-                <div class="btn-control">
-                    <label id="radio">Is there a problem in UI that bothers you?</label><br>
-                    <input type="text" name="question6" placeholder="Enter the name of your problem" size="43">
-                </div>
-
-                <br>
-                <div class="texto">
-                    <p style="font-size:120%;">Please enter your comments here:
-                    <p>
-                        <textarea rows="10" cols="100" maxlength="3000" name="comments" placeholder="Enter your text...."></textarea>
-                </div>
-                <div class="btnClass">
-                    <button type="submit" class="button" id="bb">Submit</button>
-                </div>
-                
-            </div>
-
-        </form>
-            
-            </div>
-            <div class="col-2">
-            </div>
+      <!-- the content of the form -->
+      <!-- action="index.html" method="post" -->
+      <form class="surveryForm">
+        <!-- User Information -->
+        <div class="userInfo">
+          <h2>User Information</h2>
+          <p>Please provide your information before filling the survey</p>
         </div>
-        
+        <!-- the text box for the user filling the form -->
+        <div class="form-group">
+          <div class="row">
+            <div class="col-6">
+              <label for="fnameLabel">First Name</label>
+              <input type="text" id="fname" name="firstName" placeholder="First Name" required>
+            </div>
+            <div class="col-6">
+              <label for="lnameLabel">Last Name</label>
+              <input type="text" id="lname" name="lastName" placeholder="Last Name" required>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="row">
+            <!-- style="float: right;" -->
+            <div class="col-6">
+              <label for="emailLabel">Email</label>
+              <input type="text" id="email" name="email" placeholder="Email" required>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <!-- Questions in the form -->
+        <!-- Quetion 1 and 2 -->
+        <div class="row questions">
+          <!-- Question 1 -->
+          <div class="col-6">
+            <label for="" id="radio"><span>1.</span> Do you use the Facebook user interface often?</label>
+            <br>
+            <!-- style="margin-right: 4px;" -->
+            <div class="row">
+              <div class="col-6">
+                <input type="radio" name="question1" value="yes">
+                <label for="yes">Yes</label>
+              </div>
+              <div class="col-6">
+                <input type="radio" name="question1" value="no">
+                <label for="no">No</label>
+              </div>
+            </div>
+          </div>
+          <!-- Question 2 -->
+          <div class="col-6">
+            <label><span>2.</span> Which Facebook user interface do you prefer?</label>
+            <div style="margin-left: 22px;">
+              <select name="question2">
+                <option value="" selected=""> Select an Option</option>
+                <option value="Old UI"> Old UI</option>
+                <option value="New UI"> New UI </option>
+                <option value="No Preference"> No Preference</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <!-- Question3 and 4 -->
+        <div class="row questions">
+          <!-- Question 3-->
+          <div class="col-6">
+            <label id="radio"><span>3.</span> How difficult is reading characters on the screen?</label><br>
+            <input type="radio" name="question3"> Very Hard<br>
+            <input type="radio" name="question3"> Somewhat hard<br>
+            <input type="radio" name="question3"> Somewhat easy<br>
+            <input type="radio" name="question3"> Very easy<br>
+          </div>
+          <!-- Question 4 -->
+          <div class="col-6">
+            <label id="checkbox;"><span>4.</span> Please state your level of agreement for the following:</label><br>
+            <input type="checkbox" name="question4" value="Use of terms throughout the system is consistent "> Use of terms throughout the system is consistent</input><br>
+            <input type="checkbox" name="question4" value="Position of messages on the screen is consistent "> Position of messages on the screen is consistent</input><br>
+            <input type="checkbox" name="question4" value="Prompts for inputs are clear "> Prompts for inputs are clear</input><br>
+            <input type="checkbox" name="question4" value="System always informs about the progress of the task "> System always informs about the progress of the task</input><br>
+            <input type="checkbox" name="question4" value="Error messages are helpful "> Error messages are helpful</input>
+          </div>
+        </div>
+        <!-- Question 5 and 6 -->
+        <div class="row questions">
+          <!-- Question 5-->
+          <div class="col-6">
+            <label id="radio"><span>5.</span> In which section of facebook does the user interface look most awful?</label><br>
+            <input type="radio" name="question5"> Photos<br>
+            <input type="radio" name="question5"> News<br>
+            <input type="radio" name="question5"> Messaging<br>
+            <input type="radio" name="question5"> Games<br>
+          </div>
+          <!-- Question 6 -->
+          <div class="col-6">
+            <label id="radio"><span>6.</span> Is there a problem in UI that bothers you?</label><br>
+            <input type="text" name="question6" placeholder="Enter the name of your problem" size="43">
+          </div>
+        </div>
+        <!-- feeback section -->
+        <!-- texto -->
+        <div class="questions">
+          <p style="font-size:120%;">Please write down your comments</p>
+          <textarea rows="10" cols="100" maxlength="3000" name="comments" placeholder=""></textarea>
+        </div>
 
+        <!-- Submit button -->
+        <div class="btnClass">
+          <button type="submit" class="button" id="bb">Submit</button>
+        </div>
 
-    </section>
-
-    <footer>
-        <p>Website created by Ruchira, Sam, Batuhan, and Kene</p>
-    </footer>
-    <!--<div class="footer">
-        
+      </form>
     </div>
 
-    </div>-->
+  </section>
+
+  <footer id="footer">
+    <p>Website created by Ruchira, Sam, Batuhan, and Kene</p>
+  </footer>
 
 
 
-<script src="/assets/action.js"></script>
+  <script src="/assets/action.js"></script>
 </body>
 
 </html>
