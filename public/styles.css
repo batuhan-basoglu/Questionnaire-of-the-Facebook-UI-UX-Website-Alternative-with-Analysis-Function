@@ -26,11 +26,11 @@ p{
     padding-bottom: 40px; */
 }
 
-.form-control-1 {
+.form-control {
     padding-right: 43%;
-    text-align: right;
+    text-align: left;
     margin: 10px 0px;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 .texto {
@@ -103,7 +103,7 @@ p{
 }
 .surveryForm {
   /* #DDDDDD; */
-  background-color: #DDDDDD;
+  background-color: #fafafa;
 }
 
 .surveyIntro{
@@ -126,6 +126,7 @@ p{
 .questions{
   margin:  5% 7%;
   text-align: left;
+  padding-left: 15%;
 }
 
 
@@ -140,6 +141,29 @@ p{
 /* Footer section */
 #footer {
   padding: 3% 4%;
-  background-color: #F4C983;
+  background-color: #ffd591;
   text-align: center;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: rgb(0, 0, 0);
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: rgb(0, 0, 0);
 }
