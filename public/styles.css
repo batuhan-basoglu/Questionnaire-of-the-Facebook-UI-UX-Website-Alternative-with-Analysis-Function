@@ -1,13 +1,18 @@
 body {
-    background-color: #9caf49;
     text-align: center;
-    /* background-image: url("images/bg3.jpg"); */
 }
 
 h1 {
     font-family: "Helvetica ", sans-serif;
-    font-size: 40px;
+    font-size: 3rem;
     color: rgb(45, 43, 170);
+}
+h2{
+  font-size: 2rem;
+}
+
+p{
+  font-size : 1rem;
 }
 
 .browser {
@@ -15,10 +20,10 @@ h1 {
 }
 
 .survey_body {
-    background-color: #53dfe4;
-    margin: 20px;
+    /* background-color: #53dfe4; */
+    /* margin: 20px;
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 40px; */
 }
 
 .form-control-1 {
@@ -62,7 +67,7 @@ h1 {
     height: auto;
 }
 
-.footer {
+/* .footer {
     position: fixed;
     left: 0;
     bottom: 0;
@@ -71,7 +76,7 @@ h1 {
     background-color: rgb(87, 139, 216);
     color: rgb(255, 255, 255);
     text-align: center;
-}
+} */
 
 .button {
     background-color: rgb(87, 139, 216);
@@ -89,4 +94,41 @@ h1 {
 
 .btnClass {
     text-align: center;
+}
+
+/* Shared classes */
+.questions{
+  margin: 4% 3%;
+}
+
+
+/* Title section */
+#title {
+  background-color: #F4C983;
+  padding : 3% 7%;
+}
+/* Form Section */
+#form {
+  padding: 3% 7%;
+  text-align: center;
+  /* background-color: #5B6D5B; */
+  /* #F4C983; */
+}
+.SurveyIntro{
+  margin: 3%;
+}
+.userInfo{
+  margin: 2.5%;
+}
+
+.surveryForm {
+  /* #DDDDDD; */
+  /* background-color: #5B6D5B; */
+}
+
+/* Footer section */
+#footer {
+  padding: 3% 4%;
+  background-color: #F4C983;
+  text-align: center;
 }
