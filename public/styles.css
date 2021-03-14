@@ -4,116 +4,59 @@ body {
 
 h1 {
     font-family: "Helvetica ", sans-serif;
-    font-size: 3rem;
+    font-size: 3.5rem;
     color: rgb(45, 43, 170);
+    padding: 5%;
 }
 h2{
   font-size: 2rem;
+  padding: 1%;
+}
+h3{
+  font-size: 1.5rem;
+  padding: 1.5%;
+  font-style: italic;
+  font-weight: normal;
 }
 
 p{
   font-size : 1rem;
 }
 
-.browser {
-    padding-left: 10px;
+hr{
+  border: dotted #FFD591 6px;
+  border-bottom: none;
+  width: 70%;
 }
 
-.survey_body {
-    /* background-color: #53dfe4; */
-    /* margin: 20px;
-    padding-top: 40px;
-    padding-bottom: 40px; */
-}
-
-.form-control {
-    padding-right: 43%;
-    text-align: left;
-    margin: 10px 0px;
-    font-size: 17px;
-}
-
-.texto {
-    text-align: center;
-    padding-left: 35px;
-}
-
-.two {
-    text-align: center;
-    font-size: 20px;
-    padding-left: 10px;
-}
-
-.box {
-    text-align: center;
-    font-size: 20px;
-    padding-bottom: 30px;
-    padding-left: 10px;
-}
-
-.btn-control {
-    padding-bottom: 20px;
-    padding-left: 40%;
-    text-align: left;
-    font-size: 20px;
-}
-
-/* .questions {
-    padding-top: 20px;
-} */
-
-.fb {
-    width: 10%;
-    height: auto;
-}
-
-.button {
-    background-color: rgb(87, 139, 216);
-    border-color: transparent;
-    margin: 0 auto;
-    color: #ffffff;
-    font-size: 20px;
-}
-
-.button:hover {
-    background-color: rgb(103, 163, 253);
-    color: #ffffff;
-    border-color: transparent;
-}
-
-.btnClass {
-    text-align: center;
-}
-
-/* Shared classes */
-
-
-
-/* Title section */
-#title {
-  background-color: #F4C983;
-  padding : 3% 4%;
-}
 /* Form Section */
 #form {
-  padding: 3% 5%;
+  padding: 7% 15%;
   text-align: center;
-  /* background-color: #5B6D5B; */
-  /* #F4C983; */
+  background-image: url('images/bg3.jpg');
 }
 .surveryForm {
   /* #DDDDDD; */
   background-color: #fafafa;
+  border-radius: 2rem;
+  border: #5B6D5B solid 2rem;
 }
 
 .surveyIntro{
-  /* margin: 4%; */
-  /* background-color: #F39189; */
   padding : 5%;
 }
-.headerImg{
-  width: 40%;
+.carouselSection {
+  margin: 2% 8%;
 }
+
+.headerImg1{
+  width: 30%;
+}
+
+.headerImg2{
+  width: 60%;
+}
+
 .userInfo{
   margin: 2.5%;
 }
@@ -123,27 +66,6 @@ p{
   text-align: left;
 }
 
-.questions{
-  margin:  5% 7%;
-  text-align: left;
-  padding-left: 15%;
-}
-
-
-.commentBox{
-  margin: 4% 15%;
-}
-
-.btnClass{
-  margin: 4%;
-}
-
-/* Footer section */
-#footer {
-  padding: 3% 4%;
-  background-color: #ffd591;
-  text-align: center;
-}
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
@@ -166,4 +88,40 @@ p{
   content: '<';
   font-size: 55px;
   color: rgb(0, 0, 0);
+}
+
+.commentBox{
+  margin: 4% 15%;
+}
+.questions{
+  margin:  5% 7%;
+  text-align: left;
+  padding-left: 10%;
+  padding-right: 4%;
+}
+
+.btnClass {
+    text-align: center;
+    margin: 4%;
+}
+
+.button {
+    background-color: rgb(87, 139, 216);
+    border-color: transparent;
+    margin: 0 auto;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.button:hover {
+    background-color: rgb(103, 163, 253);
+    color: #ffffff;
+    border-color: transparent;
+}
+
+/* Footer section */
+#footer {
+  padding: 3% 4%;
+  background-color: #ffd591;
+  text-align: center;
 }
