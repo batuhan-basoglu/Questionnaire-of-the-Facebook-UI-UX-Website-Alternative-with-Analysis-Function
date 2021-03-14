@@ -18,7 +18,7 @@
 
 </head>
 
-<body style="background-image: url('images/bg3.jpg');">
+<body>
   <!-- the form section for the survey -->
   <section id="form">
     <div class="container-fluid">
@@ -27,18 +27,18 @@
         <!-- The form header -->
         <div class="surveyIntro">
           <h1>Facebook UI/UX Survey</h1>
-          <p>What are your thoughts/experience with <a href="https://www.facebook.com">facebook</a> user interface?</p>
+          <h3>What are your thoughts/experience with <a href="https://www.facebook.com">facebook</a> user interface?</h3>
           <!-- Carousel for different User Interfaces -->
-          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div id="carouselExampleControls" class="carousel slide carouselSection" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="images/fb.png" class="headerImg" alt="fb">
+                <img src="images/fb.png" class="headerImg1" alt="fb">
               </div>
               <div class="carousel-item">
-                <img src="images/facebook_ui.png" alt="UI" class="headerImg">
+                <img src="images/facebook_ui.png" alt="UI" class="headerImg2">
               </div>
               <div class="carousel-item">
-                <img src="images/facebook.jpg" class="headerImg" alt="UI">
+                <img src="images/facebook.jpg" class="headerImg2" alt="UI">
               </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -50,7 +50,6 @@
               <span class="sr-only">Next</span>
             </a>
           </div>
-          <!-- <img src="images/facebook_ui.png" alt="UI" class="headerImg"> -->
         </div>
         <hr>
         <!-- User Information -->
@@ -84,16 +83,15 @@
         <!-- Quetion 1 and 2 -->
         <div class="row questions">
           <!-- Question 1 -->
-          <div class="col-5">
+          <div class="col-6">
             <label for="" id="radio"><span>1.</span> Do you use the Facebook user interface often?</label>
             <br>
-            <!-- style="margin-right: 4px;" -->
             <div class="row">
-              <div class="col-5">
+              <div class="col-6">
                 <input type="radio" name="question1" value="yes">
                 <label for="yes">Yes</label>
               </div>
-              <div class="col-8">
+              <div class="col-6">
                 <input type="radio" name="question1" value="no">
                 <label for="no">No</label>
               </div>
@@ -115,7 +113,7 @@
         <!-- Question3 and 4 -->
         <div class="row questions">
           <!-- Question 3-->
-          <div class="col-5">
+          <div class="col-6">
             <label id="radio"><span>3.</span> How difficult is reading characters on the screen?</label><br>
             <input type="radio" name="question3"> Very Hard<br>
             <input type="radio" name="question3"> Somewhat hard<br>
@@ -123,7 +121,7 @@
             <input type="radio" name="question3"> Very easy<br>
           </div>
           <!-- Question 4 -->
-          <div class="col-5">
+          <div class="col-6">
             <label id="checkbox;"><span>4.</span> Please state your level of agreement for the following:</label><br>
             <input type="checkbox" name="question4" value="Use of terms throughout the system is consistent "> Use of terms throughout the system is consistent</input><br>
             <input type="checkbox" name="question4" value="Position of messages on the screen is consistent "> Position of messages on the screen is consistent</input><br>
@@ -135,7 +133,7 @@
         <!-- Question 5 and 6 -->
         <div class="row questions">
           <!-- Question 5-->
-          <div class="col-5">
+          <div class="col-6">
             <label id="radio"><span>5.</span> In which section of facebook does the user interface look most awful?</label><br>
             <input type="radio" name="question5"> Photos<br>
             <input type="radio" name="question5"> News<br>
@@ -143,24 +141,20 @@
             <input type="radio" name="question5"> Games<br>
           </div>
           <!-- Question 6 -->
-          <div class="col-5">
+          <div class="col-6">
             <label id="radio"><span>6.</span> Is there a problem in UI that bothers you?</label><br>
             <input type="text" name="question6" placeholder="Enter the name of your problem" size="43">
           </div>
         </div>
         <hr>
         <!-- feeback section -->
-        <!-- texto -->
         <div class="commentBox">
-          <!-- <p>Please write down your comments</p>
-          <textarea rows="10" cols="100" maxlength="3000" name="comments" placeholder=""></textarea> -->
           <label for="exampleFormControlTextarea1">Please write down your comments</label>
           <textarea class="form-control" name="comments" id="exampleFormControlTextarea1" rows="8"></textarea>
         </div>
 
         <!-- Submit button -->
         <div class="btnClass">
-          <!-- <button type="submit" class="button" >Submit</button> -->
           <button type="submit" id="bb" class="btn btn-lg btn-outline-primary">Submit</button>
         </div>
 
