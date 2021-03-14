@@ -24,7 +24,7 @@ p{
 }
 
 hr{
-  border: dotted #FFD591 6px;
+  border: dotted #276678 6px;
   border-bottom: none;
   width: 70%;
 }
@@ -33,13 +33,13 @@ hr{
 #form {
   padding: 7% 15%;
   text-align: center;
-  background-image: url('images/bg3.jpg');
+  background-image: url('images/bg4.jpg');
 }
 .surveryForm {
   /* #DDDDDD; */
   background-color: #fafafa;
   border-radius: 2rem;
-  border: #5B6D5B solid 2rem;
+  border: #d3e0ea solid 2rem;
 }
 
 .surveyIntro{
@@ -122,6 +122,8 @@ hr{
 /* Footer section */
 #footer {
   padding: 3% 4%;
-  background-color: #ffd591;
+  background-color: #d3e0ea;
+  color: #276678;
+  font-weight: bold;
   text-align: center;
 }
