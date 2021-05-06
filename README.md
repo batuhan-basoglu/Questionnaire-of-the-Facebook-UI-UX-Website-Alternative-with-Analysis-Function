@@ -1,4 +1,4 @@
-# SEG3125-LAB6
+# Questionnaire of the Facebook UI/UX Website Alternative with Analysis Function
 
 The Survey Analysis made by Ruchira Perrera, Sam Oyediran, Batuhan Basoglu, and Kene Ojukwu
 
