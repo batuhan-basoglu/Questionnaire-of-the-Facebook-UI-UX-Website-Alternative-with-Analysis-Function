@@ -38,4 +38,4 @@ jobs:
           SSH_PRIVATE_KEY: ${{ secrets.ACTIONS_SSH_KEY }}
         with:
           source-repo: "git@github.com:batuhan-basoglu/Questionnaire-of-the-Facebook-UI-UX-Website-Alternative-with-Analysis-Function.git"
-          destination-repo: "git@git.batuhan.basoglu.co:batuhan-basoglu/Questionnaire-of-the-Facebook-UI-UX-Website-Alternative-with-Analysis-Function.git"
+          destination-repo: "git@git.batuhan.basoglu.ca:batuhan-basoglu/Questionnaire-of-the-Facebook-UI-UX-Website-Alternative-with-Analysis-Function.git"
